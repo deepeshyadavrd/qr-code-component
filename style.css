@@ -30,18 +30,32 @@ body {
 }
 .container img {
   width: 100%;
-  border-radius: 1.2rem;
+  border-radius: 1rem;
 }
 
 .container h2 {
+  color: var(--dark-blue);
   padding: 0.3rem;
+  margin-top: 1.25rem;
+}
+
+.container p {
+  padding: 1.25rem;
+  color: var(--grayish-blue);
 }
 /* Attribution */
 
 .attribution {
-  font-size: 11px;
+  font-size: 20px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 500px) {
+  .container {
+    width: 340px;
+    margin: 3.5rem auto 1rem;
+  }
 }
